@@ -51,7 +51,7 @@ class Player(object):
         self.y = y
         self.width = width
         self.height = height
-        self.hitbox = pygame.Rect(self.x, self.y + (self.height // 3) * 2, self.width, self.height // 3)
+        self.hitbox = pygame.Rect(self.x, self.y + (self.height // 3) * 6, self.width, self.height // 9)
 
     def draw(self, window):
         pygame.draw.rect(window, (255, 0, 0), (self.x, self.y, self.width, self.height))
