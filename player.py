@@ -16,7 +16,7 @@ class Player:
         self.vel = 3
 
     def draw(self, win):
-        """Draw the character as a rectangle on the pygame display
+        """Draw the character as a triangle on the pygame display
         """
         pygame.draw.rect(win, self.color, self.rect)
 
@@ -40,10 +40,10 @@ class Player:
             self.x += self.vel
 
 
-# class Crewmate(Player):
-#     """Class for player type Crewmate
+# class imposter(Player):
+#     """Class for player type imposter
 #     """
-#     def __init__(self, x, y, width, height, color, username, vision):
+#     def __init__(self, x, y, width, height, username, vision):
 #         super().__init__(x, y, width, height, color, username)
 #         self.vision = vision
 
