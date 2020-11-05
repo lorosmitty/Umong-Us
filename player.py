@@ -41,7 +41,7 @@ class Player:
 
 
 # class Crewmate(Player):
-#     """Class for player type Crewmate
+#     """Class for player type imposter
 #     """
 #     def __init__(self, x, y, width, height, color, username, vision):
 #         super().__init__(x, y, width, height, color, username)
